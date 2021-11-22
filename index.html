@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Phát hiện các điểm mốc của khuôn mặt</title>
+		<meta charset="UTF-8">
+		<script src="analytics.js"></script>
+	</head>
+	<body>
+		<h1>Phát hiện các điểm mốc của khuôn mặt</h1>
+		<video id="video" autoplay style="display: none"></video>
+		<canvas id="canvas" width="640px" height="480px"></canvas>
+	</body>
+	<script src="https://unpkg.com/@tensorflow/tfjs-core@2.4.0/dist/tf-core.js"></script>
+	<script src="https://unpkg.com/@tensorflow/tfjs-converter@2.4.0/dist/tf-converter.js"></script>
+	<script src="https://unpkg.com/@tensorflow/tfjs-backend-webgl@2.4.0/dist/tf-backend-webgl.js"></script>
+	<script src="https://unpkg.com/@tensorflow-models/face-landmarks-detection@0.0.1/dist/face-landmarks-detection.js"></script>
+	<script src="script.js"></script>
+</html>
